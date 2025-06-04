@@ -32,3 +32,6 @@ def api_update_volume() :
         update_volume()
     except Exception as e:
         print(f"Error happened : {e}")
+        
+if __name__ == "__main__" :
+    app.run()
